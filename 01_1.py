@@ -12,22 +12,21 @@ def check_position(input):
     counter = 0
     count = 0
     for line in input.split('\n'):
-
+        # If line starts with R, move right
         if line.startswith('R'):
             line = line.strip('R')
             position += int(line)
-
+        # If line starts with L, move left
         elif line.startswith('L'):
             line = line.strip('L')
             position -= int(line)
-
+    # Correct position to be within 0-99
         if (position < 0):
             position %= 100
 
         if (position >= 100):
             position %= 100
-        
-        print(f"Current position: {position}")
+    # Check if Click    
         if position == 0:
             counter += 1
             print(f"Lap completed at instruction {count}")
