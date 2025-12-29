@@ -37,6 +37,6 @@ def main():
     raw_input = read_input()
     counter = check_position(raw_input)
     print(counter)
-
+ 
 if __name__ == "__main__":
     main()
