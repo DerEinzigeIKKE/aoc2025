@@ -3,6 +3,7 @@
 ## Finished
 
 + Day 1 Quest 1
++ Day 1 Quest 2
 
 ## ToDo
 
