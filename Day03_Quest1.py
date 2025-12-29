@@ -43,3 +43,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+"""
+Batteriepacks aus Input
+Davon die 2 stärksten Batterien in Reihenfolge
+Die Macht der Packs aufsummieren"""
