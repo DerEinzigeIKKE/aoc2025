@@ -1,6 +1,7 @@
-INPUTADRESS = "03_01_input.txt"
-#INPUTADRESS = "03_01_input_test.txt"
-TESTGOAL = 357
+INPUTADRESS = "input\input_03_01.txt"
+TESTGOAL = 17311 # Level 1 Goal
+#INPUTADRESS = "input\test_input_03_01.txt"
+#TESTGOAL = 357 # Level 1 Testgoal
 
 
 # Read input file
@@ -18,6 +19,7 @@ def analyze_pack(input):
     i = 0
     battery_1 = 0
     battery_2 = 0
+    power_level = 0
     length = len(input)
     while i < length:
         char = input[i]
