@@ -1,6 +1,9 @@
-INPUTADRESS = "01_1_input.txt"
-#INPUTADRESS = "01_1_input_test.txt"
-
+INPUTADRESS = "input\input_01.txt"
+#TESTGOAL = 1066 # Level 1 Goal
+TESTGOAL = 6223 # Level 2 Goal
+#INPUTADRESS = "input\input_test_01.txt"
+#TESTGOAL = 3 # Level 1 Testgoal
+#TESTGOAL = 6 # Level 2 Testgoal
 
 # Read input file
 def read_input():
@@ -39,7 +42,9 @@ def check_position(position):
 def main():
     raw_input = read_input()
     counter = change_position(raw_input)
-    print(counter)
+    print(f"counter: {counter}")
+    print(f"counter: {counter} (expected)")
+    print(f"difference: {counter - TESTGOAL}")
 
 if __name__ == "__main__":
     main()
