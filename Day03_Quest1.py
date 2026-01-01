@@ -1,6 +1,6 @@
-INPUTADRESS = "input\input_03_01.txt"
+#INPUTADRESS = "input\input_03.txt"
 TESTGOAL = 17311 # Level 1 Goal
-#INPUTADRESS = "input\test_input_03_01.txt"
+INPUTADRESS = "input\input_test_03.txt"
 #TESTGOAL = 357 # Level 1 Testgoal
 
 
